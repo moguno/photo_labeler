@@ -57,8 +57,6 @@ Program.command("get <path>")
     });
 
 Program.command("delete <label> <path>")
-    .action((labelName, path) => {
-        del(labelName, path);
-    })
+    .action(del);
 
 Program.parse(process.argv);
