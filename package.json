@@ -1,0 +1,18 @@
+{
+  "name": "photo_labeler",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "photo_labeler": "photo_labeler.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "ioredis": "^4.16.3"
+  }
+}
